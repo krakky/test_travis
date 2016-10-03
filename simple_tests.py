@@ -1,7 +1,7 @@
-from app import app
+from flask_app import app
 import unittest 
 
-class FlaskBookshelfTests(unittest.TestCase): 
+class SingleTest(unittest.TestCase): 
 
     @classmethod
     def setUpClass(cls):
@@ -32,6 +32,5 @@ class FlaskBookshelfTests(unittest.TestCase):
         # sends HTTP GET request to the application
         # on the specified path
         result = self.app.get('/') 
-
         # assert the response data
-self.assertEqual(result.data, "FLASK VERSION = 0.10.1")
+		self.assertEqual(result.data, "FLASK VERSION = 0.10.1")
