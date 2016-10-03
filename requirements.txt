@@ -4,7 +4,6 @@ Flask-Script==2.0.5
 Flask-WTF==0.12
 Jinja2==2.8
 MarkupSafe==0.23
-PAM==0.4.2
 PyYAML==3.10
 South==0.7.5
 Twisted-Core==13.2.0
