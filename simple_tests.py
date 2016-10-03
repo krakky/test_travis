@@ -33,4 +33,4 @@ class SingleTest(unittest.TestCase):
         # on the specified path
         result = self.app.get('/') 
         # assert the response data
-		self.assertEqual(result.data, "FLASK VERSION = 0.10.1")
+        self.assertEqual(result.data, "FLASK VERSION = 0.10.1")
