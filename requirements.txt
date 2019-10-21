@@ -4,7 +4,7 @@ Flask-Script==2.0.5
 Flask-WTF==0.12
 Jinja2==2.8
 PyYAML==3.10
-Werkzeug==0.11.9
+Werkzeug==0.15.3
 argparse==1.2.1
 base92==1.0.3
 flask-mongoengine==0.7.5
