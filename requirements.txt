@@ -3,7 +3,7 @@ Flask-PyMongo==0.4.1
 Flask-Script==2.0.5
 Flask-WTF==0.12
 Jinja2==2.8
-PyYAML==3.10
+PyYAML==5.4
 Werkzeug==0.11.9
 argparse==1.2.1
 base92==1.0.3
